@@ -13,6 +13,8 @@
 		B7709FB82604B89B00848EBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7709FB72604B89B00848EBE /* Preview Assets.xcassets */; };
 		B7709FC32604B89B00848EBE /* unoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7709FC22604B89B00848EBE /* unoTests.swift */; };
 		B7709FCE2604B89C00848EBE /* unoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7709FCD2604B89C00848EBE /* unoUITests.swift */; };
+		B7709FDF2604BD9300848EBE /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7709FDE2604BD9300848EBE /* card.swift */; };
+		B770A008260A67D200848EBE /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B770A007260A67D200848EBE /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		B7709FC92604B89C00848EBE /* unoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7709FCD2604B89C00848EBE /* unoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unoUITests.swift; sourceTree = "<group>"; };
 		B7709FCF2604B89C00848EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7709FDE2604BD9300848EBE /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		B770A007260A67D200848EBE /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		B7709FA42604B89800848EBE = {
 			isa = PBXGroup;
 			children = (
+				B770A007260A67D200848EBE /* home.swift */,
 				B7709FAF2604B89800848EBE /* uno */,
 				B7709FC12604B89B00848EBE /* unoTests */,
 				B7709FCC2604B89C00848EBE /* unoUITests */,
@@ -97,6 +102,7 @@
 			children = (
 				B7709FB02604B89800848EBE /* unoApp.swift */,
 				B7709FB22604B89800848EBE /* ContentView.swift */,
+				B7709FDE2604BD9300848EBE /* card.swift */,
 				B7709FB42604B89B00848EBE /* Assets.xcassets */,
 				B7709FB92604B89B00848EBE /* Info.plist */,
 				B7709FB62604B89B00848EBE /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7709FDF2604BD9300848EBE /* card.swift in Sources */,
 				B7709FB32604B89800848EBE /* ContentView.swift in Sources */,
 				B7709FB12604B89800848EBE /* unoApp.swift in Sources */,
+				B770A008260A67D200848EBE /* home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
